@@ -1,0 +1,67 @@
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FAF1D6; /* Fondo */
+  color: #D9F1F1; /* Texto */
+  padding: 15px 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.NameLogo {
+  display: flex;
+  align-items: center;
+}
+
+.NameLogo h3 {
+  font-size: 28px;
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-family: 'Arial', sans-serif;
+  color: #f8a19c; /* Texto oscuro */
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  transition: transform 0.2s;
+}
+
+#logo:hover {
+  transform: rotate(360deg);
+}
+
+.navSeccion2 {
+  display: flex;
+  align-items: center;
+}
+
+.Boton {
+  background: none;
+  border: none;
+  color: #bbb; /* Gris claro */
+  font-size: 19px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.Boton:hover {
+  color: #f8a19c; /* Azul claro */
+  text-decoration: underline;
+}
+
+button:last-child {
+  margin-right: 0;
+}
+
+button.active {
+  font-weight: bold;
+}
+
+.CartWidget {
+  position: relative;
+}
